@@ -1,0 +1,73 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/inter-v12-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+*{
+  margin: 0;  
+ 
+}
+body{
+  background-color:#0D1117 !important;
+}
+.HTML{
+  width: 13px;
+  height: 13px;
+  border: solid #E34C26 1px;
+  background-color: #E34C26;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+.CSS{
+  width: 13px;
+  height: 13px;
+  border: solid #563D7C 1px;
+  background-color: #563D7C;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+.JavaScript{
+  width: 13px;
+  height: 13px;
+  border: solid #F1E05A 1px;
+  background-color: #F1E05A;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+.SCSS{
+  width: 13px;
+  height: 13px;
+  border: solid #C6538C 1px;
+  background-color: #C6538C;
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 50%;
+}

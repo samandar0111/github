@@ -1,0 +1,38 @@
+.box{
+width: 870px;
+
+}
+.card{
+ 
+  display: flex;
+  justify-content: space-between;
+
+  padding: 30px 0;
+  >div{
+    display: flex;
+    gap: 20px;
+    >a{
+        color: #c9d1d9;
+      font-size: 16px;
+      >span{
+        color: #8b949e;
+      }
+    }
+  }
+}
+.xrr{
+  width: 880px;
+  color:#30363D;
+  height: 1px;
+  display: block;
+ 
+ 
+  opacity: 0.2;
+}
+.loading{
+  font-size: 30px;
+  color: #fff;
+text-align: center;
+
+  min-height: 500px;
+}

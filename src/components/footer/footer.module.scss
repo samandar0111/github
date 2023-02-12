@@ -1,0 +1,17 @@
+.list{
+ display: flex;
+ max-width: 900px;
+ justify-content: space-between;
+ list-style: none;
+}
+.box{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-content: space-between;
+  max-width: 1250px;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

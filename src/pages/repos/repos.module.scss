@@ -1,0 +1,81 @@
+.box{
+  width: 880px;
+  margin-top: 15px;
+ 
+}
+.form{
+flex-shrink: 0;
+width: 520px;
+margin-right: auto;
+>input{
+  width: 100%;
+  background-color: transparent;
+border-radius: 6px;
+  border: solid 1px #30363D;
+  padding: 7px;
+}
+}
+.box::after{
+  content: "";
+ border: 0.5px solid #30363D;
+  margin-top: 15px;
+  opacity: 0.5;
+  display: block;
+}
+.card_title{
+  color: #58A6FF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.card_public{
+  color: #8b949e;
+  border-radius: 2em;
+  border: 1px solid #30363d;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 0 7px;
+  margin-bottom: 20px;
+}
+.card2_java{
+  font-size: 12px;
+  color: #8b949e;
+  margin-right: 20px;
+
+
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.card2{
+  display: flex;
+  flex-direction: column;
+}
+.hrr{
+  width: 100%;
+  color: green;
+  height: 2px;
+  display: block;
+  margin-top: 20px;
+  background-color: green;
+  opacity: 0.5;
+}
+.xrr{
+  width: 880px;
+  color:#30363D;
+  height: 1px;
+  display: block;
+  margin-top: 20px;
+ 
+  opacity: 0.2;
+}
+.loading{
+  min-height: 500px;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
